@@ -1,0 +1,499 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my styles */
+
+/* general styles */
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-center{
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn, .btn a{
+    border: none;
+    padding: 10px;
+    background-color: #69C6BA;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: white;
+    color: #69C6BA;
+}
+
+.btn-secondary{
+    color: #C66995;
+    background-color: white;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.font0{
+    font-size: 0;
+}
+
+/* header */
+.logo img {
+    width: 50px ;
+    padding-right: 5px;
+}
+
+.logo h1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Noto Sans Buhid', sans-serif;
+}
+
+.logo{
+    margin-left: 80px;
+}
+
+.header{
+    padding: 25px 0;
+}
+
+.nav-head li{
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+.nav-head li a{
+    color: black;
+    font-weight: 600;
+}
+.nav-head{
+    margin-right: 80px;
+}
+
+.nav-head .home a{
+    color: #69C6BA;
+}
+
+/* main */
+main{
+    background-color: #E6E6E6;
+}
+
+/* hero */
+.avail-btn{
+    flex: 0 1 50%;
+}
+
+.avail-btn button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #69C6BA;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.check{
+    flex: 0 1 25%;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/banner.jpg), no-repeat;
+    background-size:contain;
+    color: white;
+    padding: 80px 0 50px 0;
+}
+
+.hero h2{
+    font-size: 36px;
+}
+
+.hero p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero i{
+    border-radius: 50%;
+    background-color: #69C6BA;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.hero-head{
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rooms{
+    width: 50%;
+}
+
+.rooms input, .rooms label,.check input, .check label{
+    width: 100%;
+}
+
+.hotel-form input{
+    border: none;
+    outline: none;
+    font-size: 10px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.room-no{
+    flex: 0 1 50%;
+}
+
+.people{
+    flex: 0 1 25%;
+}
+
+.hotel-form label{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.form-row1{
+    padding-bottom: 30px;
+}
+
+/* intro */
+.intro-head{
+    padding: 40px 0;
+}
+
+.intro-head h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.intro-head h2 strong{
+    font-weight: 700;
+}
+
+.intro-head p{
+    font-size: 11px;
+    color: grey;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* explore */
+
+.explore{
+    background-color: white;
+}
+
+.explore-img{
+    flex: 0 1 50%;
+}
+
+.explore-img img{
+    width: 100%;
+}
+
+.explore-art{
+    width:48%;
+    background-color: #69C6BA;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    right: 60px;
+}
+
+.explore-art-inverse{
+    width:48%;
+    background-color: #C66995;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    left: 60px;
+}
+
+.explore-art h3, .explore-art-inverse h3{
+    font-size: 26px;
+    line-height: 1;
+}
+
+.explore-art p, .explore-art-inverse p{
+    font-size: 11px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.explore-arrow-box{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.explore-arrow i{
+    background-color: rgb(191, 184, 184);
+    font-size: 10px;
+    font-weight: 800;
+    border-radius: 50%;
+    padding: 6px;
+    color: rgba(0,0,0,0.5);
+}
+
+.explore-arrow-box1{
+    margin-right: 3px;
+}
+
+.explore-wrapper{
+    position: relative;
+}
+
+.explore-arrow-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+
+.explore-arrow-wrapper-inverse{
+    position: absolute;
+    top: 50%;
+    right: 39%;
+}
+
+/* continents */
+.continent-img h3{
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.continent-img{
+    padding: 25px;
+    background-color: #69C6BA;
+    flex: 0 1 14.28%;
+}
+
+.continent-img img{
+    width: 80%;
+}
+
+.asia{
+    background-color: #C66995;
+}
+
+/* DESTINATION */
+.destination2{
+    background-color: white;
+    padding: 60px 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.desti-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    height: 143.41px;
+    border-top: 1px solid  rgb(235, 232, 232);
+    border-bottom: 1px solid  rgb(235, 232, 232);
+    margin-bottom: 20px;
+}
+
+.desti-img{
+    width: 28%;
+}
+
+.desti-img img{
+    width: 100%;
+}
+
+.desti-price{
+    background-color: #69C6BA;
+    color: white;
+    width: 20%;
+    padding: 40px 0;
+    height: 143.41px;
+}
+
+.desti-head {
+        width: 52%;
+        padding: 0px 25px;
+}
+
+.desti-head h3{
+    font-size:16px ;
+    font-weight: 500;
+}
+
+.desti-head h4{
+    padding-top: 5px;
+    font-size: 12px;
+    color: #C66995;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.desti-head p{
+    font-size: 11px;
+    color: rgb(168, 162, 162);
+}
+
+.curve{
+    position: absolute;
+    height: 143.41px;
+    right: 300px;
+    border-top: 1px solid  rgb(209, 202, 202);
+    border-bottom: 1px solid  rgb(215, 209, 209);
+}
+
+.curve img{
+    height: 100%;
+}
+
+.desti-price h2{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.desti-price p{
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* location */
+.map{
+    position: relative;
+}
+
+.map-form{
+    width: 35%;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.map-form input, .map-form textarea{
+    background-color: #F5F5F5;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    width: 100%;
+}
+
+fieldset .map-form-row1 input{
+    width: 48%;
+}
+
+.map-form textarea{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color:grey;
+}
+
+.map-btn{
+    width: 100%;
+    font-family: "roboto", sans-serif;
+}
+
+/* foot */
+footer{
+    background-color: #E6E6E6;
+}
+
+.foot{
+    background-color:#69C6BA;
+    padding: 30px 0;
+}
+
+.foot small{
+    font-size: 9px;
+    color: white;
+    font-weight: 300;
+}
