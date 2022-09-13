@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms assignment 2</title>
+    <script src="https://kit.fontawesome.com/852aff0772.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300&family=Noto+Sans+Buhid&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;500;600;700&family=Roboto+Mono&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="flex container header flex-center">
+            <div class="logo flex flex-start flex-center">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/logo.png" alt="logo">
+                <h1>
+                    JOURNEY
+                </h1>
+            </div>
+            <nav>
+                <ul class="flex flex-center nav-head">
+                    <li class="home">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Top Destinations</a>
+                    </li>
+                    <li>
+                        <a href="#">Recommended Places</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container hero">
+            <div class="hero-head">
+                <h2>
+                    LET'S BEGIN
+                </h2>
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/dots-3.png" alt="3dots">
+                <p>
+                    We assist you to choose the best.
+                </p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <form class="hotel-form">
+                <fieldset>
+                    <div class="flex form-row1">
+                        <div class="destination">
+                            <label for="destination">Choose your destination</label><br>
+                            <input type="name" id="destination" name="destination" placeholder="Type your destination...">
+                        </div>
+                        <div class="rooms">
+                            <ul class="flex">
+                                <li class="room-no">
+                                    <label for="rooms">How many rooms?</label><br>
+                                    <input type="number" name="rooms" id="rooms" placeholder="1 Room" min="1"> 
+                                </li>
+                                <li class="people">
+                                    <label for="adult">Adult</label><br>
+                                    <input type="number" name="adult" id="adult" placeholder="1" min="1"> 
+                                </li>
+                                <li class="people">
+                                    <label for="children">Children</label><br>
+                                    <input type="number" name="children" id="children" placeholder="0" min="0"> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="flex flex-center">
+                            <li class="check">
+                                <label for="checkin">Check in date</label><br>
+                                <input type="datetime" name="checkin" id="checkin" placeholder="Check in">
+                            </li>
+                            <li class="check">
+                                <label for="checkout">Check out date</label><br>
+                                <input type="datetime" name="checkin" id="checkout" placeholder="Check out">
+                            </li>
+                            <li class="avail-btn">
+                                <br>
+                                <button> CHECK AVALABILITY </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </fieldset>
+            </form>
+        </section>
+        <section class="intro container ">
+            <div class="intro-head center">
+                <h2>
+                    YOUR <strong>JOURNEY</strong> IS OUR PRIORITY
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum incidunt quod neque eaque laudantium, cum iste dicta hic? Facere repellendus harum hic laboriosam itaque dignissimos ipsam vitae facilis, quidem voluptatibus.
+                </p>
+                <button class="btn">
+                    CONTINUE EXPLORE
+                </button>
+            </div>
+        </section>
+        <section class="explore container">
+            <div class="explore-wrapper">
+                <div class="flex flex-center">
+                    <div class="explore-img font0">
+                        <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/tm-img-01.jpg" alt="mountain">
+                    </div>
+                    <div class="explore-art">
+                        <h3 class="center">
+                            Europe's most visted places
+                        </h3 class="center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis officia cumque, consectetur ut placeat aliquid sunt laboriosam consequuntur natus possimus harum ex asperiores minima nostrum, dolorem distinctio! Corrupti, a? Lorem ipsum dolor sit amet.
+                        </p>
+                        <button class="btn btn-primary"> CONTINUE READING </button>
+                    </div>
+                </div>
+                <div class="flex flex-start explore-arrow-wrapper">
+                    <div class="explore-arrow-box center explore-arrow-box1 ">
+                        <div class="explore-arrow">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                    </div>
+                    <div class="explore-arrow-box center">
+                        <div class="explore-arrow">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explore-wrapper">
+                <div class="flex flex-end flex-center">
+                    <div class="explore-img font0">
+                        <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/tm-img-02.jpg" alt="triangle island">
+                    </div>
+                    <div class="explore-art-inverse">
+                        <h3 class="center">
+                            Asia's most visted places
+                        </h3 class="center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis officia cumque, consectetur ut placeat aliquid sunt laboriosam consequuntur natus possimus harum ex asperiores minima nostrum, dolorem distinctio! Corrupti, a? Lorem ipsum dolor sit amet.
+                        </p>
+                        <button class="btn btn-secondary"> CONTINUE READING </button>
+                    </div>
+                </div>
+                <div class="flex flex-start explore-arrow-wrapper-inverse">
+                    <div class="explore-arrow-box center explore-arrow-box1 ">
+                        <div class="explore-arrow">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                    </div>
+                    <div class="explore-arrow-box center">
+                        <div class="explore-arrow">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explore-wrapper">
+                <div class="flex flex-center">
+                    <div class="explore-img font0">
+                        <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/tm-img-03.jpg" alt="busy street">
+                    </div>
+                    <div class="explore-art">
+                        <h3 class="center">
+                            America's most visted places
+                        </h3 class="center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis officia cumque, consectetur ut placeat aliquid sunt laboriosam consequuntur natus possimus harum ex asperiores minima nostrum, dolorem distinctio! Corrupti, a? Lorem ipsum dolor sit amet.
+                        </p>
+                        <button class="btn btn-primary"> CONTINUE READING </button>
+                    </div>
+                </div>
+                <div class="flex flex-start explore-arrow-wrapper">
+                    <div class="explore-arrow-box center explore-arrow-box1 ">
+                        <div class="explore-arrow">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                    </div>
+                    <div class="explore-arrow-box center">
+                        <div class="explore-arrow">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="continents container flex">
+            <div class="font0 continent-img">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/north-america.png" alt="north america">
+                <h3 class="center">
+                    NORTH AMERICA
+                </h3 class="center">
+            </div>
+            <div class="font0 continent-img">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/south-america.png" alt="south america">
+                <h3 class="center" class="center">
+                    SOUTH AMERICA
+                </h3 class="center">
+            </div>
+            <div class="font0 continent-img">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/europe.png" alt="europe">
+                <h3 class="center">
+                    EUROPE
+                </h3 class="center">
+            </div>
+            <div class="font0 continent-img asia">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/asia.png" alt="asia">
+                <h3 class="center" class="center">
+                    ASIA
+                </h3 class="center">
+            </div>
+            <div class="font0 continent-img">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/africa.png" alt="africa">
+                <h3 class="center">
+                    AFRICA
+                </h3 class="center">
+            </div>
+            <div class="font0 continent-img">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/australia.png" alt="australia">
+                <h3 class="center">
+                    AUSTRALIA
+                </h3 class="center">
+            </div>
+            <div class="font0 continent-img">
+                <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/antartica.png" alt="antartica">
+                <h3 class="center">
+                    ANTARTICA
+                </h3 class="center">
+            </div>
+        </section>
+        <section class="destination2 container">
+            <div class="flex flex-center desti-wrapper">
+                <div class="desti-img font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/tm-img-06.jpg" alt="beach">
+                </div>
+                <div class="desti-head">
+                    <h3>
+                        ASIA RESORT HOTEL
+                    </h3>
+                    <h4>
+                        Singapore
+                    </h4>
+                    <p>
+                        Sed egestas , odio nec bibendum mattis , quam odio hendrerit risus , eu varius eros lacus sit amet lectus . Donec blandit luctus dictum ....
+                    </p>
+                </div>
+                <div class="curve font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/button-curve.png" alt="curve">
+                </div>
+                <div class="desti-price">
+                    <h2>
+                        $440
+                    </h2>
+                    <p>
+                        CONTINUE READING
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-center desti-wrapper">
+                <div class="desti-img font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/tm-img-07.jpg" alt="bridge">
+                </div>
+                <div class="desti-head">
+                    <h3>
+                        NULLAM EGET EST A NISIL
+                    </h3>
+                    <h4>
+                        Yangon, Mayanmar
+                    </h4>
+                    <p>
+                        Sed egestas , odio nec bibendum mattis , quam odio hendrerit risus , eu varius eros lacus sit amet lectus . Donec blandit luctus dictum ....
+                    </p>
+                </div>
+                <div class="curve font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/button-curve.png" alt="curve">
+                </div>
+                <div class="desti-price">
+                    <h2>
+                        $450
+                    </h2>
+                    <p>
+                        CONTINUE READING
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-center desti-wrapper">
+                <div class="desti-img font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/tm-img-05.jpg" alt="street light">
+                </div>
+                <div class="desti-head">
+                    <h3>
+                        PORIN INTERDUM ULLUMCORPER
+                    </h3>
+                    <h4>
+                        Bankok, Thailand
+                    </h4>
+                    <p>
+                        Sed egestas , odio nec bibendum mattis , quam odio hendrerit risus , eu varius eros lacus sit amet lectus . Donec blandit luctus dictum ....
+                    </p>
+                </div>
+                <div class="curve font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/button-curve.png" alt="curve">
+                </div>
+                <div class="desti-price">
+                    <h2>
+                        $460
+                    </h2>
+                    <p>
+                        CONTINUE READING
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-center desti-wrapper">
+                <div class="desti-img font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/tm-img-04.jpg" alt="waterbody">
+                </div>
+                <div class="desti-head">
+                    <h3>
+                        LOREM IPSUM DOLOR SIT
+                    </h3>
+                    <h4>
+                        Vientiane, Laos
+                    </h4>
+                    <p>
+                        Sed egestas , odio nec bibendum mattis , quam odio hendrerit risus , eu varius eros lacus sit amet lectus . Donec blandit luctus dictum ....
+                    </p>
+                </div>
+                <div class="curve font0">
+                    <img src="/TA-STYLE-building-html-forms-THaaaj/block-BHaacj/assets/button-curve.png" alt="curve">
+                </div>
+                <div class="desti-price">
+                    <h2>
+                        $470
+                    </h2>
+                    <p>
+                        CONTINUE READING
+                    </p>
+                </div>
+            </div>
+            <div class="center">
+                <button class="btn">
+                    <a href="#">SHOW MORE PLACES</a>
+                </button>
+            </div>
+        </section>
+        <section class="location container">
+            <div class="map font0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7778.853695062592!2d74.87651900000003!3d12.880251800000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1663084546455!5m2!1sen!2sin" width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <form class="map-form">
+                    <fieldset>
+                        <div class="flex map-form-row1">
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+                        <input type="text"  name="subject" placeholder="Subject">
+                        <br>
+                        <textarea rows="10" name="Message">Message</textarea>
+                        <button class="center btn map-btn">
+                            SEND MESSAGE NOW
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="center">
+        <div class="foot container">
+            <small>Copyright &copy 2020 Your Company. Designed By Template Mo</small>
+        </div>
+    </footer>
+</body>
+</html>
